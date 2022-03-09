@@ -1,0 +1,162 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646846123409' stop='1646846127402'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1646846123410' status='passed' stop='1646846123411'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646846123411' status='passed' stop='1646846125037'>
+            <name>Given load login page</name>
+            <title>Given load login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646846123413' status='passed' stop='1646846124030'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0c41e963-1219-42b4-bc03-af7919b2339b-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646846125037' status='passed' stop='1646846126235'>
+            <name>When set "username" textField on "loginForm" is "dotam1236@gmail.com"</name>
+            <title>When set "username" textField on "loginForm" is "dotam1236@gmail.com"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646846125041' status='passed' stop='1646846125067'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='24c17383-32e0-4668-965d-2b51cf54afe9-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='98248acf-45f6-46c3-be0c-ae52bb02d23c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646846125076' status='passed' stop='1646846125113'>
+                    <name>POST /session/:sessionId/element/78037c81-cc30-4b32-840b-a83285a0ec30/clear</name>
+                    <title>POST /session/:sessionId/element/78037c81-cc30-4b32-840b-a83285a0ec30/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646846125120' status='passed' stop='1646846125221'>
+                    <name>POST /session/:sessionId/element/78037c81-cc30-4b32-840b-a83285a0ec30/value</name>
+                    <title>POST /session/:sessionId/element/78037c81-cc30-4b32-840b-a83285a0ec30/value</title>
+                    <attachments>
+                        <attachment title='Request' source='fd717b71-493b-4c0a-b38f-fc5c08d515c5-attachment.json' type='application/json' size='35'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646846126236' status='passed' stop='1646846127395'>
+            <name>When set "password" textField on "loginForm" is "tester"</name>
+            <title>When set "password" textField on "loginForm" is "tester"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646846126239' status='passed' stop='1646846126271'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='70b0c79e-f450-4a4c-bd47-d9ad9f905231-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='5a2133d4-d987-4a3f-ab73-648e8acce6d4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646846126278' status='passed' stop='1646846126316'>
+                    <name>POST /session/:sessionId/element/78107009-cf60-4d3f-b536-cb385f701bce/clear</name>
+                    <title>POST /session/:sessionId/element/78107009-cf60-4d3f-b536-cb385f701bce/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646846126317' status='passed' stop='1646846126382'>
+                    <name>POST /session/:sessionId/element/78107009-cf60-4d3f-b536-cb385f701bce/value</name>
+                    <title>POST /session/:sessionId/element/78107009-cf60-4d3f-b536-cb385f701bce/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c7499000-4a57-4038-8057-8407bb6824f1-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646846127396' status='broken' stop='1646846127400'>
+            <name>Then click "login" button on "loginForm" page</name>
+            <title>Then click "login" button on "loginForm" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot destructure property 'selector' of 'selectorObj[field]' as it is undefined.</message>
+                <stack-trace>TypeError: Cannot destructure property 'selector' of 'selectorObj[field]' as it is undefined.
+                    at World.&lt;anonymous> (D:\wdio-tutorial\test\features\step-definitions\demo.js:24:10)
+                    at World.executeAsync (D:\wdio-tutorial\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at World.testFrameworkFnWrapper (D:\wdio-tutorial\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+                    at async Object.wrapPromiseWithTimeout (D:\wdio-tutorial\node_modules\@cucumber\cucumber\lib\time.js:63:12)
+                    at async Object.run (D:\wdio-tutorial\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+                    at async Object.run (D:\wdio-tutorial\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:48:26)
+                    at async TestCaseRunner.invokeStep (D:\wdio-tutorial\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:89:16)
+                    at async TestCaseRunner.runStep (D:\wdio-tutorial\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:229:26)
+                    at async D:\wdio-tutorial\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:155:48
+                    at async TestCaseRunner.aroundTestStep (D:\wdio-tutorial\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:113:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1646846127400' status='passed' stop='1646846127401'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,11 @@
+{
+  "username": {
+    "selector": "[name='email']"
+  },
+  "password": {
+    "selector": "[name='password']"
+  },
+  "login": {
+    "selector": "button[type='submit']"
+  }
+}

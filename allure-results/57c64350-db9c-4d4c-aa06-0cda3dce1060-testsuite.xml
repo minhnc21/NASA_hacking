@@ -1,0 +1,131 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646848700577' stop='1646848704551'>
+    <name>Login: as user set correct username and password, navigate to home page</name>
+    <title>Login: as user set correct username and password, navigate to home page</title>
+    <test-cases>
+        <test-case start='1646848700577' status='passed' stop='1646848700580'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646848700580' status='passed' stop='1646848704543'>
+            <name>Given load login page</name>
+            <title>Given load login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646848700583' status='passed' stop='1646848703499'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e066b283-1c4f-436b-a840-3af95ddb7e6b-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646848704512' status='passed' stop='1646848704535'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='5e52fee8-1094-46e6-a241-db7b69d9854f-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646848704543' status='broken' stop='1646848704548'>
+            <name>When set "username" textField on "loginForm" is "dotam1236@gmail.com"</name>
+            <title>When set "username" textField on "loginForm" is "dotam1236@gmail.com"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Cannot find module '../../../selectors/loginForm'</message>
+                <stack-trace>Error: Cannot find module '../../../selectors/loginForm'
+                Require stack:
+                - D:\wdio-tutorial\step-actions\setTextField.js
+                - D:\wdio-tutorial\step-definitions\then.js
+                - D:\wdio-tutorial\node_modules\@wdio\cucumber-framework\build\index.js
+                - D:\wdio-tutorial\node_modules\@wdio\utils\build\utils.js
+                - D:\wdio-tutorial\node_modules\@wdio\utils\build\initialisePlugin.js
+                - D:\wdio-tutorial\node_modules\@wdio\utils\build\index.js
+                - D:\wdio-tutorial\node_modules\@wdio\runner\build\index.js
+                - D:\wdio-tutorial\node_modules\@wdio\local-runner\build\run.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+                    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+                    at Module.require (node:internal/modules/cjs/loader:999:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at World.module.exports (D:\wdio-tutorial\step-actions\setTextField.js:3:23)
+                    at World.executeAsync (D:\wdio-tutorial\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at World.testFrameworkFnWrapper (D:\wdio-tutorial\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Object.wrapPromiseWithTimeout (D:\wdio-tutorial\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\lib\time.js:63:12)
+                    at async Object.run (D:\wdio-tutorial\node_modules\@wdio\cucumber-framework\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1646848704549' status='undefined'>
+            <name>When set "password" textField on "loginForm" is "tester"</name>
+            <title>When set "password" textField on "loginForm" is "tester"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646848704549' status='undefined'>
+            <name>Then click "login" button on "loginForm" page</name>
+            <title>Then click "login" button on "loginForm" page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646848704549' status='passed' stop='1646848704550'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
